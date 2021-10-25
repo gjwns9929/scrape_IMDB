@@ -12,7 +12,7 @@ class ImdbSpider(scrapy.Spider):
     # this is the url of my favorite movie, the Butterfly Effect.
     start_urls = ['https://www.imdb.com/title/tt0289879/']
 
-    # 
+    
 
     def parse(self,response):
         """
